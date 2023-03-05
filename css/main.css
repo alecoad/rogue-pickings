@@ -34,17 +34,21 @@ p {
 }
 
 .content-wrapper {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     overflow: auto;
 }
 
 /******** HEADER STYLES ********/
+header {
+    height: 110px;
+    margin: 0 auto;
+}
+
 header h1 {
-    width: 300px;
     float: left;
     margin: 0;
-    padding: 36px 0;
+    padding: 38px 0;
 }
 
 header h1 span {
@@ -52,15 +56,13 @@ header h1 span {
 }
 
 header nav {
-    width: 300px;
     float: right;
-    padding: 44px 0;
+    padding: 46px 0;
 }
 
 header nav ul {
     padding: 0;
     margin: 0;
-    text-align: right;
 }
 
 header nav ul li {
@@ -79,6 +81,7 @@ header nav ul li a {
 /********  MAIN STYLES ********/
 /******** TOP SECTION ********/
 .main-image img {
+    width: 100%;
     border-top: 3px solid #77A466;
     border-bottom: 3px solid #77A466;
 }
@@ -89,6 +92,11 @@ header nav ul li a {
 }
 
 /******** BOTTOM SECTION ********/
+.top-section,
+.bottom-section {
+
+}
+
 .bottom-section .content-wrapper {
     border-top: 5px solid #EEE;
     border-bottom: 5px solid #EEE;
@@ -103,17 +111,17 @@ header nav ul li a {
 }
 
 .section-one {
-    width: 350px;
+    width: 29%;
 }
 
 .section-two {
-    width: 500px;
+    width: 42%;
     border-right: 5px solid #EEE;
     border-left: 5px solid #EEE;
 }
 
 .section-three {
-    width: 350px;
+    width: 29%;
 }
 
 .bottom-section h3 {
@@ -127,6 +135,7 @@ header nav ul li a {
 
 .menu-list li {
     color: #45610E;
+    font-size: 16px;
     line-height: 36px;
 }
 
