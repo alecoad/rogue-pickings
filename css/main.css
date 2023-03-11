@@ -194,5 +194,32 @@ footer span {
 
 /******** DESKTOP MEDIA QUERY ********/
 @media all and (min-width: 1200px) {
-    /* Desktop styles here */
+
+    /******** GLOBAL STYLES ********/
+    body {
+        font-size: 1em;
+    }
+
+    header .content-wrapper {
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    header h1 {
+        padding: 0;
+        width: 30%;
+        border-bottom: none;
+        text-align: left;
+    }
+
+    header nav {
+        width: 24%;
+    }
+
+    header nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
 }
